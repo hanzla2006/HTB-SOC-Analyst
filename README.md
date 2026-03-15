@@ -1,64 +1,105 @@
-## Overview
+# SOC Analyst Portfolio
 
-This repository documents my learning journey through the **Hack The Box SOC Analyst Path**. The goal of this repository is to track my progress as I work through the modules and develop practical **blue team and Security Operations Center (SOC)** skills.
+This repository contains investigations, threat hunting exercises, and detection engineering work I completed while progressing through the **Hack The Box SOC Analyst Path**.
 
-Throughout this path, I will study topics such as:
+The SOC Analyst path contains multiple modules covering log analysis, SIEM usage, threat hunting, and incident investigation.  
+This portfolio documents the hands-on exercises I have completed so far while working through the training.
 
-- Security monitoring
-- SIEM usage
-- Windows event log analysis
-- Threat hunting
-- Network traffic analysis
-- Intrusion detection systems
-- Malware analysis
-- Digital forensics
-- Incident investigation and reporting
-
-This repository serves as a **personal knowledge base** and a **record of my hands-on learning process**.
+I am continuing to expand this repository as I complete additional modules.
 
 ---
 
-## What This Repository Contains
+# Current Progress
 
-For each module I complete, I will document:
+Modules completed so far include:
 
-- Key concepts learned
-- Commands used during the exercises
-- Steps taken to solve the tasks
-- My reasoning and investigation process
-- Any useful notes for future reference
+- Security Monitoring & SIEM Fundamentals
+- Windows Event Logs & Finding Evil
+- Introduction to Splunk & SPL
+- Threat Hunting with Elastic
+- Splunk-based Detection Engineering
+- Intrusion Detection with Splunk
 
-Each section will focus not only on the correct answers, but also on the **thinking process behind reaching those answers**.
-
----
-
-## Purpose
-
-The primary goals of this repository are:
-
-- Reinforce my understanding of SOC concepts
-- Build a structured record of practical cybersecurity exercises
-- Track my progression through the SOC Analyst Path
-- Improve my ability to analyze logs, detect attacks, and investigate incidents
-
-By documenting the **commands I run**, the **queries I use**, and the **logic behind my investigations**, I aim to strengthen my analytical approach to real-world security monitoring and incident response.
+More investigations and detection exercises will be added as I continue progressing through the SOC Analyst path.
 
 ---
 
-## Disclaimer
+# Skills Practiced
 
-This repository is intended strictly for **educational and personal learning purposes**. The content reflects my own notes and understanding while studying the Hack The Box SOC Analyst Path.
+Through these labs I have been practicing skills used by SOC analysts such as:
+
+- investigating security logs
+- writing Splunk SPL queries
+- analyzing Windows authentication events
+- detecting suspicious process execution
+- identifying indicators of compromise
+- threat hunting using SIEM data
+- correlating events across multiple systems
 
 ---
 
-## Progress
+# Portfolio Sections
 
-Modules will be added as I progress through the path.
+## Investigations
+
+SOC-style investigations where I analyzed logs to determine whether suspicious or malicious activity occurred.
+
+Examples include:
+
+- suspicious PowerShell execution
+- abnormal process relationships
+- network connections to external hosts
 
 ---
 
-## Author
+## Threat Hunting
 
-**Hanzla Hamid**
+Threat hunting exercises based on threat intelligence reports.
 
-Cybersecurity student focused on **blue team operations, threat detection, and security monitoring**.
+These involve searching SIEM data for indicators of compromise and validating whether systems were affected.
+
+Example investigation:
+
+- Stuxbot malware campaign
+
+---
+
+## Log Analysis
+
+Hands-on analysis of Windows event logs and Sysmon telemetry.
+
+Topics explored include:
+
+- authentication monitoring
+- privilege escalation indicators
+- DLL hijacking detection
+- process creation analysis
+
+---
+
+## Detection Engineering
+
+Exercises where I created Splunk detection queries designed to identify attacker behavior such as:
+
+- reconnaissance commands
+- suspicious process execution
+- abnormal network activity
+
+---
+
+# Tools Used
+
+Tools I used while completing these labs include:
+
+- Splunk
+- Elastic Stack
+- Windows Event Viewer
+- PowerShell
+- Sysmon
+- MITRE ATT&CK framework
+
+---
+
+# Learning Status
+
+I am currently continuing the **Hack The Box SOC Analyst Path** and will keep updating this repository with additional investigations and detection engineering exercises as I progress through the training. As of now, I have completed the first 5 modules of this learning path.
