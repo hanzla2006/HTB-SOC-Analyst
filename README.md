@@ -13,12 +13,11 @@ I am continuing to expand this repository as I complete additional modules.
 
 Modules completed so far include:
 
+- Incident Handling Process
 - Security Monitoring & SIEM Fundamentals
 - Windows Event Logs & Finding Evil
-- Introduction to Splunk & SPL
-- Threat Hunting with Elastic
-- Splunk-based Detection Engineering
-- Intrusion Detection with Splunk
+- Introduction to Threat Hunting & Hunting with Elastic
+- Understanding Log Sources and Investigating with Splunk
 
 More investigations and detection exercises will be added as I continue progressing through the SOC Analyst path.
 
