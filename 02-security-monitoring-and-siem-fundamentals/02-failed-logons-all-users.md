@@ -7,7 +7,7 @@ Create a visualization that shows failed Windows logon attempts.
 
 This uses Windows Event ID:
 
-- **4625 – Failed logon attempt** fileciteturn0file0
+- **4625 – Failed logon attempt** 
 
 ## My Thought Process
 
@@ -15,7 +15,7 @@ When building the visualization I tried to think like a SOC analyst.
 
 If attackers try brute force or password spraying, they will generate a lot of failed login events. So monitoring event ID 4625 makes sense.
 
-Steps I followed:
+Steps I folloId:
 
 1. Set time range to **last 15 years**
 2. Filter events:
@@ -30,20 +30,20 @@ Steps I followed:
 
 At this point the table shows usernames with failed login attempts.
 
-Then we improved it with more context:
+Then I improved it with more context:
 
 Extra fields added:
 
 - host.hostname.keyword (machine name)
 - winlog.logon.type.keyword (logon type)
 
-We also renamed columns to be easier to read.
+I also renamed columns to be easier to read.
 
 ## Cleaning the Data
 
 The SOC manager suggested removing noisy accounts.
 
-So we filtered out:
+So I filtered out:
 
 - DESKTOP-DPOESND
 - WIN-OK9BH1BCKSD

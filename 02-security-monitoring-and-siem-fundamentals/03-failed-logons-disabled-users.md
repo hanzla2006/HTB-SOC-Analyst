@@ -11,7 +11,7 @@ This is interesting because disabled accounts should never be used.
 
 Event ID:
 
-- **4625 – Failed logon** fileciteturn0file0
+- **4625 – Failed logon** 
 
 But we also need a **SubStatus** value.
 

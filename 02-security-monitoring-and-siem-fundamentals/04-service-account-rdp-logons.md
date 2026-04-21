@@ -17,7 +17,7 @@ svc-
 
 Event ID:
 
-- **4624 – Successful logon** fileciteturn0file0
+- **4624 – Successful logon** 
 
 ## My Thought Process
 

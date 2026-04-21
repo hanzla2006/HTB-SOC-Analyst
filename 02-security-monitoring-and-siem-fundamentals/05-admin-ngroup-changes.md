@@ -12,7 +12,7 @@ This is very important because gaining admin privileges usually means full contr
 Windows Security Log:
 
 - **4732 – User added to group**
-- **4733 – User removed from group** fileciteturn0file0
+- **4733 – User removed from group** 
 
 ## My Thought Process
 
@@ -45,7 +45,7 @@ Fields used:
 - event.action.keyword
 - host.name.keyword
 
-We also restricted the time range.
+I also restricted the time range.
 
 The lab specifically asked for events:
 
